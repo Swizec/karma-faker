@@ -1,7 +1,7 @@
 {
-  "name": "karma-js-factories",
+  "name": "karma-faker",
   "version": "1.0.0",
-  "description": "js-factories for Karma",
+  "description": "Faker for Karma",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
     "url": "https://github.com/Swizec/karma-js-factories/issues"
   },
   "dependencies": {
-      "js-factories": "1.0.x"
+      "Faker": "0.5.x"
   }
 }

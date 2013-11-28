@@ -5,7 +5,7 @@ var pattern = function (file) {
 };
 
 var framework = function (files) {
-    files.unshift(pattern(path.resolve(require.resolve('js-factories'), '../../js-factories/js-factories.js')));
+    files.unshift(pattern(path.resolve(require.resolve('Faker'), '../../Faker/Faker.js')));
 };
 
 framework.$inject = ['config.files'];
