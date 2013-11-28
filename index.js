@@ -9,4 +9,4 @@ var framework = function (files) {
 };
 
 framework.$inject = ['config.files'];
-module.exports = {'framework:js-factories': ['factory', framework]};
+module.exports = {'framework:faker': ['factory', framework]};
