@@ -1,0 +1,24 @@
+{
+  "name": "karma-js-factories",
+  "version": "1.0.0",
+  "description": "js-factories for Karma",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Swizec/karma-js-factories.git"
+  },
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "js-factories",
+    "factories"
+  ],
+  "author": "Swizec Teller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Swizec/karma-js-factories/issues"
+  },
+  "dependencies": {
+      "js-factories": "1.0.x"
+  }
+}
