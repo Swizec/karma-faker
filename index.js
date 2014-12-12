@@ -8,5 +8,9 @@ var framework = function (files) {
     files.unshift(pattern(path.resolve(require.resolve('faker'), '../../faker/index.js')));
 };
 
+if (typeof exports === 'undefined') {
+    exports = {};
+}
+
 framework.$inject = ['config.files'];
-module.exports = {'framework:faker': ['factory', framework]};
+module.exports = exports = {'framework:faker': ['factory', framework]};
