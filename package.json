@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mateuszsokola/karma-faker.git"
+    "url": "git://github.com/Swizec/karma-faker.git"
   },
   "keywords": [
     "karma",
@@ -18,7 +18,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mateuszsokola/karma-faker/issues"
+    "url": "https://github.com/Swizec/karma-faker/issues"
   },
   "dependencies": {
     "faker": "^2.1.1"
