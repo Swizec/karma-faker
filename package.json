@@ -1,24 +1,26 @@
 {
   "name": "karma-faker",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Faker for Karma",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Swizec/karma-js-factories.git"
+    "url": "git://github.com/mateuszsokola/karma-faker.git"
   },
   "keywords": [
     "karma",
     "karma-plugin",
-    "js-factories",
-    "factories"
+    "faker.js"
   ],
-  "author": "Swizec Teller",
+  "contributors": [
+    "Swizec Teller",
+    "Mateusz Sokola"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Swizec/karma-js-factories/issues"
+    "url": "https://github.com/mateuszsokola/karma-faker/issues"
   },
   "dependencies": {
-      "Faker": "0.5.x"
+    "faker": "^2.1.1"
   }
 }
