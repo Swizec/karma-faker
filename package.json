@@ -21,6 +21,6 @@
     "url": "https://github.com/Swizec/karma-faker/issues"
   },
   "dependencies": {
-    "faker": "^2.1.1"
+    "faker": "^3.0.0"
   }
 }
